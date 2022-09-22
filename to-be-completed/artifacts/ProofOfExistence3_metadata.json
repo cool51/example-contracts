@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "checkDocument",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "notarize",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"to-be-completed/ProofOfExistence3.sol": "ProofOfExistence3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"to-be-completed/ProofOfExistence3.sol": {
+			"keccak256": "0xfcf0fd541a55fd69dd3feddbbd05b77d23e9a278e7b14195794b59fc4f9fdd34",
+			"urls": [
+				"bzz-raw://e478994028318c69eb0516761276e2cd79d4641a69d192733175c42dacc18419",
+				"dweb:/ipfs/QmW7sbs7b85Ex6n6U5mpge3PgGv5gkkiEoCPgNccBpmhT6"
+			]
+		}
+	},
+	"version": 1
+}

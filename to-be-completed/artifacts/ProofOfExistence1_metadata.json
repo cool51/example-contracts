@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "notarize",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "proof",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "proofFor",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"to-be-completed/ProofOfExistence1.sol": "ProofOfExistence1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"to-be-completed/ProofOfExistence1.sol": {
+			"keccak256": "0xdd3e9232b7edac86d8ec017e6a9dceeb9275c9e612a1806563a9b720f33173a6",
+			"urls": [
+				"bzz-raw://0a04a9d14ed8dbf84078ffef5d06026813c7f86408718fee55f03a1c9951f51b",
+				"dweb:/ipfs/QmNM6dY5GiYk2i6mE5xceoo7VyXpZmdgWHpuRLz9nT2Qem"
+			]
+		}
+	},
+	"version": 1
+}

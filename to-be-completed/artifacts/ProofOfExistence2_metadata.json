@@ -1,0 +1,110 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "checkDocument",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "notarize",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "document",
+						"type": "string"
+					}
+				],
+				"name": "proofFor",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "proof",
+						"type": "bytes32"
+					}
+				],
+				"name": "storeProof",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"to-be-completed/ProofOfExistence2.sol": "ProofOfExistence2"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"to-be-completed/ProofOfExistence2.sol": {
+			"keccak256": "0x5b8b3d8c0c5b71dc856d0c9441a2b50380aebd3fd16f9c8145b0c50b570590c2",
+			"urls": [
+				"bzz-raw://916c214df26bf06eed70837301bea23891649a8fe69bedb7a028d28c49e172ad",
+				"dweb:/ipfs/QmdwXDvzxFTJVEqbhNiMD7FcCe3Q8sBpDC4bZdAqzpezXs"
+			]
+		}
+	},
+	"version": 1
+}

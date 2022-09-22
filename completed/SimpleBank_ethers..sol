@@ -3,7 +3,7 @@
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/math/SafeMath.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/utils/Address.sol";
 
-import "../ERC20.sol";
+import "./ERC20.sol";
 
 pragma solidity ^0.6.4;
 
@@ -41,7 +41,7 @@ contract SimpleBank{
     modifier isEnrolled {
         require(enrolled[msg.sender],'you should be enrolled to deposit');
         _;
-    }
+    } 
 
     //
     // Functions
